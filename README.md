@@ -8,6 +8,8 @@ Scripts for the ALDC developer test.
 
 `test_connector.py` contains a few simple unit tests to test the components of `connector.py` without calling the API directly or modifying a proper database. Tests can be run by executing this file.
 
+Note: I used the black python code formatter to keep my code formating consistent. Some choices it makes can feel a bit akward, but it is nice not to have to worry about formatting. I am happy to adapt to other styles as required/desired.
+
 ## Usage
 
 To generate the database run `$ python3 connector.py`. This will construct a sqlite3 database `world_data_bank.sqlite3` in the folder containing the script.
